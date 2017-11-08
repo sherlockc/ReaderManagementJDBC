@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <!--addReaderServlet-->
+    <servlet>
+        <servlet-name>addReaderServlet</servlet-name>
+        <servlet-class>servlet.addReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addReaderServlet</servlet-name>
+        <url-pattern>/addReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--deleteReaderServlet-->
+    <servlet>
+        <servlet-name>deleteReaderServlet</servlet-name>
+        <servlet-class>servlet.deleteReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteReaderServlet</servlet-name>
+        <url-pattern>/deleteReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--modifyReaderServlet-->
+    <servlet>
+        <servlet-name>modifyReaderServlet</servlet-name>
+        <servlet-class>servlet.modifyReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>modifyReaderServlet</servlet-name>
+        <url-pattern>/modifyReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--preModifyReaderServlet-->
+    <servlet>
+        <servlet-name>preModifyReaderServlet</servlet-name>
+        <servlet-class>servlet.preModifyReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>preModifyReaderServlet</servlet-name>
+        <url-pattern>/preModifyReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--queryAllReaderServlet-->
+    <servlet>
+        <servlet-name>queryAllReaderServlet</servlet-name>
+        <servlet-class>servlet.queryAllReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>queryAllReaderServlet</servlet-name>
+        <url-pattern>/queryAllReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--querySelectedReaderServlet-->
+    <servlet>
+        <servlet-name>querySelectedReaderServlet</servlet-name>
+        <servlet-class>servlet.querySelectedReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>querySelectedReaderServlet</servlet-name>
+        <url-pattern>/querySelectedReaderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--loginUserServlet-->
+    <servlet>
+        <servlet-name>loginUserServlet</servlet-name>
+        <servlet-class>servlet.loginUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginUserServlet</servlet-name>
+        <url-pattern>/loginUserServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
