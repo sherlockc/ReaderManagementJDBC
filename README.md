@@ -1,10 +1,10 @@
 # ReaderManagementJDBC
 
 ## 开发技术
-- 前端:jsp
-- 后台:HttpServlet
+- 前端：jsp
+- 后台：HttpServlet
 - 数据库：mysql
-- 数据库连接:JDBC
+- 数据库连接：JDBC
 
 ## 功能
 - 登录
